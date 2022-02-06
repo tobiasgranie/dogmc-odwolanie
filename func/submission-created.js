@@ -42,6 +42,7 @@ export async function handler(event, context) {
         
         const message = {
             embed: {
+                color: "#2F3136"
                 title: "Nowe odwołanie do bana!",
                 timestamp: new Date().toISOString(),
                 fields: [
